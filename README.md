@@ -2,7 +2,7 @@
 
 Vantage is a frontend platform where people can discover and apply to internships, scholarships, grants, and fellowships. Built as a submission for [internship name] internship task.
 
- **Live Site:** [vantage=hub1.netlify.app]
+ **Live Site:** [vantage-hub1.netlify.app]
  **GitHub Repo:** [https://github.com/IBK-LTD/Vantage-hub.git]
  **Demo:** []
 
