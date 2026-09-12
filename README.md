@@ -75,3 +75,31 @@ All functionality — search, filtering, sorting, dynamic routing, save/bookmark
 - No backend — application submissions are simulated (a success message shows, but nothing is actually sent anywhere)
 - Sample data includes 8 opportunities for demonstration purposes
 - Region-based filtering (Worldwide/Remote/etc.) is present in the UI but not currently functional
+
+
+## About
+
+Vantage solves a simple problem: opportunities (internships, scholarships, 
+grants, fellowships) are scattered across dozens of sites, newsletters, and 
+social posts, making them hard to discover and compare. Vantage brings them 
+into one searchable, filterable platform.
+
+**How it works:**
+1. A visitor lands on the **Homepage**, sees featured opportunities, and can 
+   search directly or browse by category (Internships, Scholarships, Grants, 
+   Fellowships).
+2. Searching or clicking "View all" takes them to the **Listing page**, 
+   where they can further filter by category, sort by deadline, and search 
+   by keyword — all updating instantly without a page reload.
+3. Clicking any opportunity opens its **Details page**, showing full 
+   information (description, requirements, compensation, deadline) and an 
+   **Apply Now** button that opens an application form.
+4. Users can **bookmark** any opportunity from anywhere in the app (a click 
+   on the bookmark icon) — these are saved in the browser and accessible 
+   anytime from the **Saved** page in the bottom navigation.
+5. A lightweight **Profile** page rounds out the experience, showing the 
+   user's saved-opportunity count pulled live from their actual saved list.
+
+The whole app is frontend-only — there's no backend or database. Opportunity 
+data lives in a single JavaScript file, and saved/bookmarked items are stored 
+in the browser's local storage, so nothing requires a server to function.
